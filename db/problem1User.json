@@ -1,0 +1,106 @@
+[{
+    "_id": {
+      "$oid": "657f682b51c84cb53d985d6c"
+    },
+    "username": "example_user",
+    "password": "hashed_password",
+    "email": "user@example.com",
+    "age": 30,
+    "gender": "male",
+    "profileImage": "profile.jpg",
+    "orders": [
+      {
+        "order_id": {
+          "$oid": "657f682b51c84cb53d985d69"
+        },
+        "date": {
+          "$date": "2023-12-17T21:29:15.540Z"
+        },
+        "items": [
+          {
+            "item_id": {
+              "$oid": "657f682b51c84cb53d985d6a"
+            },
+            "quantity": 2,
+            "_id": {
+              "$oid": "657f682b51c84cb53d985d6e"
+            }
+          }
+        ],
+        "address": {
+          "_id": {
+            "$oid": "657f682b51c84cb53d985d6f"
+          }
+        },
+        "comments": [
+          {
+            "comment_id": {
+              "$oid": "657f682b51c84cb53d985d6b"
+            },
+            "text": "Great food!",
+            "rating": 4.5,
+            "_id": {
+              "$oid": "657f682b51c84cb53d985d70"
+            }
+          }
+        ],
+        "_id": {
+          "$oid": "657f682b51c84cb53d985d6d"
+        }
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "657f6872a45b9a875626c20a"
+    },
+    "username": "irfan",
+    "password": "irfan",
+    "email": "irfan@example.com",
+    "age": 25,
+    "gender": "male",
+    "profileImage": "profile.jpg",
+    "orders": [
+      {
+        "order_id": {
+          "$oid": "657f6872a45b9a875626c207"
+        },
+        "date": {
+          "$date": "2023-12-17T21:30:26.210Z"
+        },
+        "items": [
+          {
+            "item_id": {
+              "$oid": "657f6872a45b9a875626c208"
+            },
+            "quantity": 2,
+            "_id": {
+              "$oid": "657f6872a45b9a875626c20c"
+            }
+          }
+        ],
+        "address": {
+          "_id": {
+            "$oid": "657f6872a45b9a875626c20d"
+          }
+        },
+        "comments": [
+          {
+            "comment_id": {
+              "$oid": "657f6872a45b9a875626c209"
+            },
+            "text": "Great food!",
+            "rating": 4.5,
+            "_id": {
+              "$oid": "657f6872a45b9a875626c20e"
+            }
+          }
+        ],
+        "_id": {
+          "$oid": "657f6872a45b9a875626c20b"
+        }
+      }
+    ],
+    "__v": 0
+  }]

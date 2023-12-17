@@ -1,0 +1,92 @@
+[{
+    "name": "Example Restaurant",
+    "description": "lahmacun",
+    "logo": "logo.jpg",
+    "address": {
+      "city": "City1",
+      "district": "District1",
+      "street": "Street1",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          39.93,
+          32.85
+        ]
+      },
+      "_id": {
+        "$oid": "657f5fbc1311c7520fd2e4a0"
+      }
+    },
+    "branches": [
+      {
+        "name": "Branch 2",
+        "address": {
+          "city": "City1",
+          "district": "District1",
+          "street": "Street1",
+          "location": {
+            "type": "Point",
+            "coordinates": [
+              39.93,
+              32.85
+            ]
+          },
+          "_id": {
+            "$oid": "657f5fbc1311c7520fd2e4a2"
+          }
+        },
+        "location": {
+          "type": "Point",
+          "coordinates": [
+            32.85,
+            32.85
+          ]
+        },
+        "_id": {
+          "$oid": "657f5fbc1311c7520fd2e4a1"
+        }
+      }
+    ],
+    "menu": [
+      {
+        "name": "Dish 2",
+        "price": 9.99,
+        "description": "Delicious dish1",
+        "image": "dish.jpg",
+        "_id": {
+          "$oid": "657f5fbc1311c7520fd2e4a3"
+        }
+      },
+      {
+        "name": "Küçük boy peynirli pizza",
+        "price": 50,
+        "_id": {
+          "$oid": "657f637119e9c8d1fbda8fb7"
+        }
+      },
+      {
+        "name": "Orta boy mantarlı pizza",
+        "price": 100,
+        "_id": {
+          "$oid": "657f637119e9c8d1fbda8fb8"
+        }
+      },
+      {
+        "name": "Hamburger",
+        "price": 120,
+        "_id": {
+          "$oid": "657f637119e9c8d1fbda8fb9"
+        }
+      }
+    ],
+    "restaurantTypes": [
+      {
+        "name": "ABC",
+        "_id": {
+          "$oid": "657f5fbc1311c7520fd2e4a4"
+        }
+      }
+    ],
+    "__v": 0
+  }]
+  
